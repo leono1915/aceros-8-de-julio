@@ -392,6 +392,7 @@ ul.sub-menu {
     border-radius: 3px;
 }
 
+
 .overlay-icon {
     position: absolute;
     top: 0;
@@ -2532,10 +2533,17 @@ textarea {
     border-radius: 3px;
     width:50%;
  }
+
  @media (max-width:500px){
     .popupi-contenedor{
          width:95%;
      }
+   
+ }
+ @media (max-width:880px){
+    .espesores{
+        display: none;
+    }
  }
  a.popupi-cerrar {
     position: absolute;
